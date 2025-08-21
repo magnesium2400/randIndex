@@ -1,4 +1,4 @@
-function ri = rand_index(p1, p2, varargin)
+function [ri,n] = rand_index(p1, p2, varargin)
 %RAND_INDEX Computes the rand index between two partitions.
 %   RAND_INDEX(p1, p2) computes the rand index between partitions p1 and
 %   p2. Both p1 and p2 must be specified as N-by-1 or 1-by-N vectors in
